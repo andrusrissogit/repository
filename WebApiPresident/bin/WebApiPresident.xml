@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApiPresident</name>
+    </assembly>
+    <members>
+        <member name="T:WebApiPresident.Controllers.PresidentsController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:WebApiPresident.Controllers.PresidentsController.Get">
+            <summary>
+            Get Presidents List
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WebApiPresident.Controllers.PresidentsController.GetPresidentsByName(System.String)">
+            <summary>
+            Get Presidents List By Name´s President
+            </summary>
+            <param name="name">Name´s President</param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApiPresident.Controllers.PresidentsController.GetPresidentsSortByBirthday(System.String)">
+            <summary>
+            Get Presidents List Sort By Birthday
+            </summary>
+            <param name="sortBy">''desc', Sort by Ascending; 'desc', Sort by Descending</param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApiPresident.Controllers.PresidentsController.GetPresidentsSortByDeathday(System.String)">
+            <summary>
+            Get Presidents List Sort By Deathday
+            </summary>
+            <param name="sortBy">''asc', Sort by Ascending; 'desc', Sort by Descending</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
